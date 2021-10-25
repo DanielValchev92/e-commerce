@@ -5,10 +5,12 @@ export default makeStyles(() => ({
         maxWidth: '100%'
     },
     media: {
-        height: 260,
+        height: 0,
+        paddingTop: '56.25%',
     },
     cartActions: {
-        justifyContent: 'space-between',
+        display: 'flex',
+        justifyContent: 'flex-end',
     },
     cardContent: {
         display: 'flex',
